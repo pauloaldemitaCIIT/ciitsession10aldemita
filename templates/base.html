@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}TaskManager{% endblock %}</title>
+        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul class="navlist">
+                <li class="navitem"><a href="/" class="navcontent">🏠Home</a></li>
+                <li class="navitem"><a href="/about" class="navcontent">📌About</a></li>
+                <li class="navitem"><a href="/contact_us" class="navcontent">📪Contact Us</a></li>
+            </ul>
+        </div>
+        {% block content %}
+        {% endblock content %}
+    </body>
+
+</html>
+

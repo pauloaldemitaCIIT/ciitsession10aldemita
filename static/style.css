@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+   
+}
+
+header{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"]{
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 50px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100hv;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    margin: 8px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar {
+    display: flex;
+}
+
+ul.navlist {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li.navitem {
+    float: left;
+  }
+  
+  a.navcontent {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a.navcontent:hover {
+    background-color: #111;
+  }
